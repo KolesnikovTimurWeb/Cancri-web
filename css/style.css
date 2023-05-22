@@ -503,6 +503,9 @@ a{
 	padding: 50px 0;
 	position: relative;
 }
+.procent-bacround img{
+	width: 100%;
+}
 .procent-bacround{
 	position: absolute;
 	top: 0;
@@ -1844,7 +1847,7 @@ a{
 		top: 47%;
 	}
 	.section{
-		padding: 30px 0;
+		padding: 60px 0;
 	}
 	.steps-number p{
 		font-size: 25px;
