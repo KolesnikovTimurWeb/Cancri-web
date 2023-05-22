@@ -1090,6 +1090,7 @@ a{
 
 .balance-hidden{
 	opacity: 1;
+	margin-top: -100px;
 	padding: 50px;
 }
 .balance-pc{
@@ -1228,10 +1229,24 @@ a{
 	color: #EDC684;
 
  }
+ @keyframes card2{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(0.8);
+	}
+	100%{
+		transform: scale(1);
+	}
+ }
  .card-right {
 	position: absolute;
 	top: 30px;
+	transform: scale(1);
+
 	right: 30px;
+	animation: card2 3s ease-in-out infinite;
  }
  .card-briliant-3{
 	position: absolute;
@@ -1816,7 +1831,6 @@ a{
 
 	.procent{
 		padding: 0px 0;
-		padding-bottom: 50px;
 	}
 }
 
@@ -1828,6 +1842,9 @@ a{
 	.steps-number{
 		display: block;
 		top: 47%;
+	}
+	.section{
+		padding: 30px 0;
 	}
 	.steps-number p{
 		font-size: 25px;
